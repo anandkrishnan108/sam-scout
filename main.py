@@ -849,6 +849,5 @@ async def on_message(message):
 
     # print(results)
 
-
-token = 'OTg0ODExNTk4MzM2MTEwNjUy.GK92FW.GGjqAWgJkP0y4nrHfktn9Oq_tk2g-QseH2oXFY'
-client.run(token)
+password = os.environ['token']
+client.run(password)
