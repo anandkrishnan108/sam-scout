@@ -1,5 +1,5 @@
-# sam-scout
-Summary: Discord bot that returns players from FIFA 22 based on user entered search parameters. Can be used by FIFA Career Mode players who are looking for new signings that meet their criteria.
+# Sam Scout Summary
+Sam Scout is a Discord bot that returns players from FIFA 22 based on user entered search parameters. Can be used by FIFA Career Mode players who are looking for new signings that meet their criteria.
 
 How to use:
 Sam Scout can be used through a series of filter commands in which the user can search for the player of his/her career mode dreams. As of now, the filter commands are 'name', 'nationality', 'position', 'overall', 'potential', 'age', 'club', 'parent_club', 'foot', 'transfer_value', and 'wage'.
@@ -16,5 +16,29 @@ wage: same syntax as transfer_value
 
 Press enter after the entire command to see the information about the players who fit the search criteria.
 
-Upcoming features:
+# Upcoming Features:
 Adding time remaining on contract as a search filter
+
+# Installation
+Use the package manager pip to install the required dependencies
+
+Windows:
+```
+pip install -r requirements.txt 
+```
+
+macOS/Linux:
+```
+pip3 install -r requirements.txt
+```
+
+# Usage
+Windows:
+```
+python main.py
+```
+
+macOS/Linux:
+```
+python3 main.py
+```
